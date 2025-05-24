@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+
+
+<body>
+    
+
+<Fieldset>
+    <h1>Perfil do Paciente</h1>
+</Fieldset> 
+
+<form action="https://api.sheetmonkey.io/form/rkkGwDGatf95y1gvhA56Uo" method="post">
+    
+    <fieldset>        
+        <label for="Nome">Nome do Paciente</label>
+        <input type="text " name="Nome" id="Nome"><br>   
+    </fieldset>
+
+    <fieldset>    
+        <label for="Data e Hora">Data e Hora da Primeia Consulta</label>
+        <input type="date">
+        
+        <label for=""></label>
+        <input type="time">     
+    </fieldset>
+
+    <fieldset>    
+        <label for="Origem">Origem</label>
+        <Select>
+            <option value="Selcione uma Opcao">Selcione uma Opção</option>
+            <option value="SUS">Sistema Único de Saúde (SUS)</option>
+            <option value="Hapvida">Particular</option>
+         </Select> 
+
+        <label for="Origem 2">Unidade de Saúde de Referência</label>
+        <Select>
+            <option value="Selcione uma Opcao">Selcione uma Opção</option>
+            <option value="SUS">Sistema Único de Saúde (SUS)</option>
+            <option value="Hapvida">Hospital Hapvida</option>
+            <option value="Alianca">Hospital Aliança</option>
+            <option value="Sao Rafael">Hospital São Rafael</option>
+            <option value="Outros">Outros</option>
+        </Select> 
+    </fieldset>
+
+    <fieldset>
+       <label for="">É acompanhando por algum farmacêutico em consultório ?</label><br><br>
+       
+       <input type="radio" id="Sim" name="Acompanhando" value="Sim">
+       <label for="Acompanhamento">Sim</label>
+       
+       <input type="radio" id="Sim" name="Acompanhando" value="Não">
+       <label for="Acompanhamento">Não</label><br><br>
+
+       <label for="Onde">Onde</label>
+       <input type="text" name="Onde" id="Onde">
+    </fieldset>
+
+    <fieldset>
+        <label for="Nascimento">Data de Nascimento</label>
+        <input type="date" name="Dt Nascimento" id="Dt Nascimento">
+        <label for="Idade">Idade</label>
+        <input type="number" name="Idade" id="Idade">
+    </fieldset>
+
+    <fieldset>
+        <label for="Genero">Gênero</label><br><br>
+
+        <input type="radio" id="Masculino" name="Genero" value="Masculino">
+        <label for="Acompanhamento">Masculino</label>
+        <input type="radio" id="Feminino" name="Genero" value="Feminino">
+        <label for="Acompanhamento">Feminino</label>
+        <input type="radio" id="Nao Binario" name="Genero" value="Nao Binario">
+        <label for="Acompanhamento">Não Binário</label>
+        <input type="radio" id="Prefiro nao dizer" name="Genero" value="Prefiro nao dizer">     
+        <label for="Acompanhamento">Prefiro não dizer</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="Escolaridade">Escolaridade</label>
+        <input type="text" name="Escolaridade" id="Escolaridade">
+        <label for="Ocupação">Ocupação</label>
+        <input type="text" name="Ocupação" id="Ocupação">
+    </fieldset>
+
+    <fieldset>
+        <label for="Tel.">Telefone</label>
+        <input type="tel" name="Telefone" id="Telefone">
+        <label for="Peso">Peso</label>
+        <input type="number" name="Peso" id="Peso">
+        <label for="Altura">Altura</label>
+        <input type="number" name="Altura" id="Altura">
+        <label for="IMC">IMC</label>
+        <input type="number" name="IMC" id="IMC">   
+    </fieldset>
+
+    <fieldset>        
+        <label for="Mora">Com que mora ?</label>
+        <input type="text " name="Com que Mora" id="Com que Mora"><br>   
+    </fieldset>
+
+    <fieldset>
+        <label for="Limitações">Limitações</label><br><br>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Nenhuma</label>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Locomoçao</label>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Fala</label>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Visão</label>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Audição</label>
+        <input type="checkbox" name="Limitações" id="Limitações">
+        <label for="Nenhuma">Outras</label> 
+    </fieldset>
+    
+
+    <fieldset>
+        <label for="Autonomia na Gestão de Medicamentos">Autonomia na Gestão de Medicamentos</label><br><br>
+        <input type="radio" id="Autonomia" name="Autonomia" value="Sem assistência">
+        <label for="Acompanhamento">Sem assistência</label><br>
+        <input type="radio" id="Autonomia" name="Autonomia" value="Necessita de lembrentes ou assistência">
+        <label for="Acompanhamento">Necessita de lembrentes ou assistência</label><br>
+        <input type="radio" id="Autonomia" name="Autonomia" value="Incapaz de tomar sozinho">
+        <label for="Acompanhamento">Incapaz de tomar sozinho</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="Cuidador">Tem cuidador?</label><br><br>
+        <input type="radio" id="Cuidador" name="Cuidador" value="Sim">
+        <label for="Cuidador">Sim</label>
+        <input type="radio" id="Cuidador" name="Cuidador" value="Não">  
+        <label for="Cuidador">Não</label><br><br>
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome">
+        <label for="Parentesco">Parentesco</label>
+        <input type="text" name="Parentesco" id="Parentesco">
+        <label for="Tel.">Tel.</label>
+        <input type="tel" name="Tel." id="Tel.">
+    </fieldset>
+
+
+    <fieldset>        
+        <label for="Local dos Remédios">Local de armazenamento dos medicamentos em casa ?</label>
+        <input type="text " name="Local dos Remédios" id="Local dos Remédios"><br>   
+    </fieldset>
+
+<button type="submit">Enviar</button>
+    
+</form> 
+
+ 
+
+
+</body>
+</html>
